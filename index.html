@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Valinor Mail Today is a private, read-only USPS Informed Delivery viewer.">
+  <title>Valinor Mail Today</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero panel">
+      <p class="eyebrow">VALINOR ESTATE · PRIVATE CORRESPONDENCE</p>
+      <h1>Mail Today</h1>
+      <p class="lede">A private, self-hosted viewer for USPS Informed Delivery.</p>
+    </header>
+
+    <section class="panel">
+      <h2>Purpose</h2>
+      <p>Valinor Mail Today helps its owner review expected USPS mailpieces and associated envelope scans from a private household dashboard.</p>
+      <p>The application connects to a dedicated Gmail account using Google OAuth and the read-only Gmail permission. It processes only matching USPS Informed Delivery messages.</p>
+    </section>
+
+    <section class="panel grid">
+      <div>
+        <h2>Private by design</h2>
+        <p>The dashboard runs on a private server and is protected by authentication and HTTPS. It is not offered as a public service.</p>
+      </div>
+      <div>
+        <h2>Limited access</h2>
+        <p>Google data is used only to identify USPS delivery messages, display reported counts, and store valid mailpiece scans.</p>
+      </div>
+      <div>
+        <h2>Automatic retention</h2>
+        <p>Processed delivery records and images are automatically removed after 30 days.</p>
+      </div>
+    </section>
+
+    <footer class="panel footer">
+      <a href="privacy/">Privacy Policy</a>
+      <a href="https://github.com/veritechc/valinor-mail-today">GitHub repository</a>
+    </footer>
+  </main>
+</body>
+</html>
